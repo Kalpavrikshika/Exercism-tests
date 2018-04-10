@@ -1,5 +1,16 @@
 language: python
-  python:
+python:
     - "3.6"
-  script:
-    - pytest
+
+sudo: false
+cache:
+    directories:
+        - "~/.mycache"
+
+install:
+    - pip3 install -U pytest
+
+
+script:
+    - echo "Running Tests"
+    - pytest -q test.py
