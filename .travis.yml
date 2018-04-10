@@ -10,4 +10,6 @@ install:
 
 script:
     - echo "Running Tests"
+    - cd ./leap
+   # - echo "$(pwd)"
     - pytest -q test.py
