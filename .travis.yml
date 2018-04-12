@@ -12,4 +12,4 @@ script:
     - echo "Running Tests"
     - cd ./leap
    # - echo "$(pwd)"
-    - pytest -q leap_test.py
+    - pytest -q reverse_string_test.py
