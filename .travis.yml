@@ -10,6 +10,6 @@ install:
 
 script:
     - echo "Running Tests"
-    - cd ./leap
+    - cd ./isogram
    # - echo "$(pwd)"
-    - pytest -q reverse_string_test.py
+    - pytest -q isogram_test.py
