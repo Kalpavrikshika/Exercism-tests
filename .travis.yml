@@ -10,6 +10,6 @@ install:
 
 script:
     - echo "Running Tests"
-    - cd ./isogram
+    - cd ./pangram
    # - echo "$(pwd)"
-    - pytest -q isogram_test.py
+    - pytest -q pangram_test.py
